@@ -1,104 +1,138 @@
 body {
-    background-color: #eef3ec;
-    color: #344438;
+    background-color: #d7e2fb;
+    color: #141820;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 header {
-    background-color: #d8e4d3;
+    background-color: #d7e2fb;
     text-align: center;
     padding: 30px;
-    border-bottom: 3px solid #9caf9a;
+    border-bottom: 3px solid #5b6e9b;
 }
 header h1 {
-    color: #4f6852;
+    color: #141820;
     font-size: 40px;
     margin-bottom: 5px;
 }
 header p {
-    color: #657766;
+    color: #36415b;
     font-size: 18px;
 }
 nav {
-    background-color: #536b57;
+    background-color: #36415b;
     text-align: center;
     padding: 15px;
 }
 nav a {
-    color: white;
+    color: #fcfdff;
     text-decoration: none;
     font-size: 18px;
     margin: 0 15px;
 }
 nav a:hover {
-    color: #d8e4d3;
+    color: #8aaaf2;
 }
 main {
     width: 80%;
     margin: 30px auto;
 }
 .welcome {
-    background-color: white;
+    background-color: #fcfdff;
     text-align: center;
     padding: 25px;
-    border: 2px solid #b8c8b5;
+    border: 2px solid #5b6e9b;
     border-radius: 10px;
 }
 .welcome img {
     width: 60%;
     max-width: 500px;
-    border: 5px solid #d8e4d3;
+    border: 5px solid #d7e2fb;
     border-radius: 10px;
     margin: 15px;
 }
 .welcome p {
+    color: #141820;
     font-size: 17px;
     line-height: 1.6;
 }
 .quote {
-    background-color: #e2dcec;
+    background-color: #8aaaf2;
     text-align: center;
     padding: 25px;
     margin-top: 25px;
-    border: 2px solid #b9abc9;
+    border: 2px solid #5b6e9b;
     border-radius: 10px;
 }
 .quote h2 {
-    color: #655276;
+    color: #141820;
 }
 .quote p {
-    color: #574765;
+    color: #141820;
     font-size: 20px;
     font-style: italic;
 }
 .tips {
-    background-color: white;
+    background-color: #fcfdff;
     padding: 25px;
-    border: 2px solid #b8c8b5;
+    border: 2px solid #5b6e9b;
     border-radius: 10px;
 }
 .tips h2 {
-    color: #4f6852;
+    color: #36415b;
     text-align: center;
     font-size: 30px;
 }
 .tip {
-    background-color: #f2f6f0;
+    background-color: #fcfdff;
     padding: 15px;
     margin: 20px 0;
-    border-left: 5px solid #78917b;
+    border-left: 5px solid #6f8bca;
     border-radius: 5px;
 }
 .tip h3 {
-    color: #536b57;
+    color: #36415b;
 }
 .tip p {
+    color: #141820;
     line-height: 1.5;
 }
 footer {
-    background-color: #536b57;
-    color: white;
+    background-color: #141820;
+    color: #fcfdff;
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+}
+.contact {
+    background-color: #fcfdff;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #5b6e9b;
+    border-radius: 10px;
+}
+.contact h2 {
+    color: #36415b;
+    font-size: 30px;
+}
+.contact > p {
+    color: #141820;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.contact-item {
+    background-color: #d7e2fb;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #6f8bca;
+    border-radius: 5px;
+}
+.contact-item h3 {
+    color: #36415b;
+    font-size: 22px;
+}
+.contact-item p {
+    color: #141820;
+    font-size: 17px;
+    line-height: 1.6;
 }
