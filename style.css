@@ -1,7 +1,7 @@
 body {
     background-color: #d7e2fb;
     color: #141820;
-    font-family: Arial, sans-serif;
+    font-family: Times, 'Times New Roman', Arial, sans-serif;
     margin: 0;
 }
 header {
@@ -10,7 +10,7 @@ header {
     padding: 30px;
     border-bottom: 3px solid #5b6e9b;
 }
-header h1 {
+h1 {
     color: #141820;
     font-size: 40px;
     margin-bottom: 5px;
@@ -29,9 +29,6 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     margin: 0 15px;
-}
-nav a:hover {
-    color: #8aaaf2;
 }
 main {
     width: 80%;
@@ -56,21 +53,8 @@ main {
     font-size: 17px;
     line-height: 1.6;
 }
-.quote {
-    background-color: #8aaaf2;
-    text-align: center;
-    padding: 25px;
-    margin-top: 25px;
-    border: 2px solid #5b6e9b;
-    border-radius: 10px;
-}
-.quote h2 {
+h2 {
     color: #141820;
-}
-.quote p {
-    color: #141820;
-    font-size: 20px;
-    font-style: italic;
 }
 .tips {
     background-color: #fcfdff;
@@ -83,17 +67,18 @@ main {
     text-align: center;
     font-size: 30px;
 }
-.tip {
-    background-color: #fcfdff;
+.tips li {
+    background-color: #d7e2fb;
+    list-style-type: none;
     padding: 15px;
     margin: 20px 0;
-    border-left: 5px solid #6f8bca;
+    border: 2px solid #d7e2fb;
     border-radius: 5px;
 }
-.tip h3 {
+.tips li h3 {
     color: #36415b;
 }
-.tip p {
+.tips li p {
     color: #141820;
     line-height: 1.5;
 }
@@ -124,7 +109,6 @@ footer {
     background-color: #d7e2fb;
     padding: 20px;
     margin: 20px 0;
-    border-left: 5px solid #6f8bca;
     border-radius: 5px;
 }
 .contact-item h3 {
